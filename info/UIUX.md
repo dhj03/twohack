@@ -1,0 +1,8 @@
+- Navigation between pages is simple and easy for users.
+- Buttons are clear and distinguishable. They also have hover and focus effects so users can tell if the buttons are selected or not.
+- Design is consistent throughout the website. Colours are not random and are part of the design choice. We used a similar design for showcasing the quizzes and the questions so users would have some familiarity.
+- Website scales responsively down to mobile sizes through the use of flex and grid.
+- Website is not cluttered with unecessary designs/colours/text. 
+- Forms don't have too much detail and are clean for users to use.
+- Language used is concise and easy for users to understand.
+- Use of whitespace to make the design feel less cluttered.

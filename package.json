@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@mui/icons-material": "^5.11.16"
+  },
+  "devDependencies": {
+    "@types/react-copy-to-clipboard": "^5.0.4",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.8.0",
+    "nano": "^10.1.2",
+    "react-copy-to-clipboard": "^5.1.0"
+  }
+}
