@@ -15,7 +15,7 @@ export default function Nav () {
           <Typography
             onClick={() => navigate('/dashboard')}
             variant="h6" component="div" sx={{ flexGrow: 1, cursor: 'pointer' }}>
-            BigBrain
+            TwoHack
           </Typography>
           <Button onClick={() => navigate('/play')} color="inherit">Play</Button>
           {token ? <NavButtonsLoggedIn /> : <NavButtonsLoggedOut />}

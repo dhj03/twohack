@@ -2,8 +2,8 @@
     "swagger": "2.0",
     "info": {
         "version": "1.0.0",
-        "title": "BigBrain CRUD Server",
-        "description": "Server that powers the BigBrain frontend",
+        "title": "TwoHack CRUD Server",
+        "description": "Server that powers the TwoHack frontend",
         "license": {
             "name": "MIT",
             "url": "https://opensource.org/licenses/MIT"
@@ -613,7 +613,7 @@
     "paths": {
         "/admin/auth/register": {
             "post": {
-                "summary": "Send registration request for someone to join BigBrain as an admin",
+                "summary": "Send registration request for someone to join TwoHack as an admin",
                 "tags": [ "Admin Auth" ],
                 "parameters": [ { "$ref": "#/components/parameters/AuthRegisterBody" } ],
                 "responses": {
@@ -647,7 +647,7 @@
         },
         "/admin/quiz": {
             "get": {
-                "summary": "Get a list of the meta-data for all BigBrain quizzes owned by the admin",
+                "summary": "Get a list of the meta-data for all TwoHack quizzes owned by the admin",
                 "security": [{ "bearerAuth": [] }],
                 "tags": [ "Admin Quiz Management" ],
                 "parameters": [
@@ -661,7 +661,7 @@
         },
         "/admin/quiz/new": {
             "post": {
-                "summary": "Create a new empty BigBrain quiz",
+                "summary": "Create a new empty TwoHack quiz",
                 "security": [{ "bearerAuth": [] }],
                 "tags": [ "Admin Quiz Management" ],
                 "parameters": [
@@ -677,7 +677,7 @@
         },
         "/admin/quiz/{quizid}": {
             "get": {
-                "summary": "Collect all of the data pertaining to a particular quiz of BigBrain",
+                "summary": "Collect all of the data pertaining to a particular quiz of TwoHack",
                 "security": [{ "bearerAuth": [] }],
                 "tags": [ "Admin Quiz Management" ],
                 "parameters": [
@@ -691,7 +691,7 @@
                 }
             },
             "put": {
-                "summary": "Update all of the details of a particular quiz of BigBrain",
+                "summary": "Update all of the details of a particular quiz of TwoHack",
                 "security": [{ "bearerAuth": [] }],
                 "tags": [ "Admin Quiz Management" ],
                 "parameters": [
@@ -722,7 +722,7 @@
         },
         "/admin/quiz/{quizid}/start": {
             "post": {
-                "summary": "Start a new session/game for a BigBrain quiz",
+                "summary": "Start a new session/game for a TwoHack quiz",
                 "security": [{ "bearerAuth": [] }],
                 "tags": [ "Admin Quiz Management" ],
                 "parameters": [
@@ -754,7 +754,7 @@
         },
         "/admin/quiz/{quizid}/end": {
             "post": {
-                "summary": "End the active session/game for a BigBrain quiz",
+                "summary": "End the active session/game for a TwoHack quiz",
                 "security": [{ "bearerAuth": [] }],
                 "tags": [ "Admin Quiz Management" ],
                 "parameters": [

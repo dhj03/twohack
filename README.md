@@ -1,8 +1,8 @@
-# BigBrain
+# TwoHack
 
 ## Introduction
 
-BigBrain is a quiz game web application based on the well-known [kahoot](https://kahoot.com/). It allows its users to create quizzes, start sessions from them, and join sessions to attempt quizzes. Quizzes contain questions, which are to be answered during a game session, and award points if answered correctly. At the end of a session, the user with the most points wins.
+TwoHack is a quiz game web application based on the well-known [Kahoot](https://kahoot.com/). It allows its users to create quizzes, start sessions from them, and join sessions to attempt quizzes. Quizzes contain questions, which are to be answered during a game session, and award points if answered correctly. At the end of a session, the user with the most points wins.
 
 ## Running the program
 
