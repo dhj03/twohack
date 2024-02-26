@@ -14,7 +14,9 @@ Navigate to the `frontend` folder and repeat the above procedure for the fronten
 
 Enter `localhost:3000` in the browser of your choice to access the web application.
 
-## Authentication
+## Features
+
+### Authentication
 
 Authentication is used to allow users to create and edit their own quizzes.
 
@@ -22,13 +24,13 @@ One may register a new account with an email, password, and name. Logging in onl
 
 Joining a session to play doesn't require an account.
 
-## Quizzes and Questions
+### Quizzes and Questions
 
 Upon logging in, a user is greeted with their dashboard, which lists the user's quizzes. When a user creates a quiz, they are the admin of said quiz. Only the admin is able to edit or delete a quiz, or start a game session from it.
 
 Each quiz contains a title, description, image, and a list of questions. Each question contains a description, list of possible answers, a list of correct answers, the number of seconds to answer the question, and the number of points to be gained from answering the question correctly.
 
-## Game Sessions
+### Game Sessions
 
 In order for a quiz to be played, a game session must be started from it. The admin starts the quiz, and is given the code for the current session. Players may then join the session using its code.
 
